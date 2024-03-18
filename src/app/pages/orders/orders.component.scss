@@ -1,0 +1,44 @@
+.order-tracking-page {
+  height: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-completed {
+  color: #fff;
+  background-color: #4CAF50
+}
+
+.button-progress {
+  color: #fff;
+  background-color: #FFC300
+}
+
+.pill {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.pill-red {
+  background-color: #ff5e5b
+}
+
+.pill-yellow {
+  background-color: #FFC300
+}
+
+.pill-green {
+  background-color: #4CAF50
+}

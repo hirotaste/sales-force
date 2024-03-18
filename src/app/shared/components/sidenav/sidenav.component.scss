@@ -1,0 +1,43 @@
+.sidenav-header {
+  padding-top: 24px;
+  text-align: center;
+
+  > img {
+    width: 90%;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 40px 0 10px 0;
+  }
+
+  .header-text {
+    > h2 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    > p {
+      margin: 0;
+      font-size: 0.8rem;
+    }
+  }
+
+  .hide-header-text {
+    display: none;
+  }
+}
+
+span {
+  color: #00000090;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .item-label {
+    display: none;
+  }
+
+  .app-name {
+    display: none;
+  }
+}

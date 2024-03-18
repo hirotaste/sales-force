@@ -1,0 +1,15 @@
+.panel {
+  height: 90%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  height: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
